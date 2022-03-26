@@ -1,0 +1,127 @@
+
+header {
+background-image: url(https://wallpaperaccess.com/full/815769.jpg);
+background-size: cover;
+background-position: center;
+height: 500px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+#overlay {
+  content: '';
+  position: absolute;
+  height: 500px;
+  top: 8px;
+  left: 8px;
+  bottom: 8px;
+  right: 8px;
+  background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  header nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 14px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  #links{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+  }
+
+  footer {
+    background-color: rgb(31, 31, 31);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  #profile img {
+    position: absolute; 
+    top:  470px;
+    left: 710px;
+    border-radius: 50%;
+    width: 6em;
+    height: 6em;
+    cursor: pointer;
+  }
+  
+#accesso,strong {
+  position: relative;
+  top:290px;
+}
+
+#accesso,em{
+  margin-bottom: 20px;
+}
+
+.titoli{
+  color:grey;
+  font-size: 30px;
+  padding: 2px;
+  margin-left: 20px;
+
+}
+
+section h2{
+display: inline-block;
+margin-top: 120px;
+margin-bottom: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.immagine img{
+  margin-left: 500px;
+  width: 30em;
+  height: 30em;
+}
+
+section p{
+  margin-left: 20px;
+  font-family: 'Red Hat Mono','Open Sans';
+  font-weight: 700;
+}
+
+section em{
+  display: block;
+  margin-left: 20px;
+  color: blue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+  color:white;
+  position: relative;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+  background-color: azure;
+}
+
+@media (max-width: 500px) {
+  .immagine img{
+    display: flex;
+    justify-content: flex-start;
+    width: 5em;
+    height: 5em;
+  }
+  #profile img{
+    margin-left: auto;
+    width: 5em;
+    height: 5em;
+  }
+}
